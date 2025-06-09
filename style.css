@@ -1,0 +1,36 @@
+header{
+      font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo{
+    color: #F9FAF8;
+    font-style: ;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+#links{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 12px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+ul li{
+    margin:8px
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
