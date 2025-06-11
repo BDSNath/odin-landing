@@ -27,6 +27,7 @@ header{
     padding: 12px;
     list-style-type: none;
     justify-content: space-between;
+    flex-grow: 0;
 }
 
 ul li{
@@ -40,8 +41,10 @@ a{
 
 #main{
     display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
     flex-wrap: nowrap;
-    margin-top 0;
+    margin-top: 0;
     margin-bottom: 20px;
     background-color: #1f2937;
 }
@@ -85,8 +88,76 @@ h1{
 }
 
 #chick{
+    display: flex;
+    flex-shrink: 0;
     float: right;
     flex-flow: row wrap;
+    flex-grow: 0;
     margin-left: 50px;
     margin-bottom: 20px;
+}
+#information{
+    margin: 10px;
+}
+
+#box{
+    display: flex;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin: 8px;
+    height: 200px;
+    width: 200px;
+}
+
+#boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-dsc{
+    display: flex;
+    width: 200px;
+    padding: 8px;
+    justify-content: center;
+    color: #898a88;
+}
+
+#quote-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: auto;
+    background-color: #e5e7eb;
+    flex-grow: 900;
+    flex-shrink: 0;
+}
+
+#quote{
+    display: flex;
+    color: #1f2937;
+    font-style: light italic;
+    margin-right: 480px;
+    font-size: 36px;
+    width: 800px;
+    height: 150px;
+}
+
+#quote-auth{
+    display: flex;
+    font-weight: 900;
+    font-size: 22px;
+    height: 80px;
+    width: 250px;
+    margin-right: 450px;
 }
