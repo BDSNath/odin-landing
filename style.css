@@ -14,7 +14,6 @@ header{
 
 #logo{
     color: #F9FAF8;
-    font-style: ;
     font-size: 24px;
     display: flex;
     align-items: center;
@@ -37,4 +36,57 @@ ul li{
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+#main{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top 0;
+    margin-bottom: 20px;
+    background-color: #1f2937;
+}
+
+#inner-box{
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+
+#description{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 0;
+    padding: 8px;
+    font-size: 18px;
+    width: 400px;
+    height: 100px;
+    color:#e5e7eb; 
+}
+
+#sign-up{
+    display:flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 0;
+    padding: 8px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#chick{
+    float: right;
+    flex-flow: row wrap;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
