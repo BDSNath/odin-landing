@@ -42,7 +42,7 @@ a{
 #main{
     display: flex;
     flex-grow: 0;
-    flex-shrink: 0;
+    justify-content: center;
     flex-wrap: nowrap;
     margin-top: 0;
     margin-bottom: 20px;
@@ -89,7 +89,7 @@ h1{
 
 #chick{
     display: flex;
-    flex-shrink: 0;
+    flex-shrink: 1;
     float: right;
     flex-flow: row wrap;
     flex-grow: 0;
@@ -160,4 +160,68 @@ h2{
     height: 80px;
     width: 250px;
     margin-right: 450px;
+}
+
+#ac-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+}
+
+#ac-box{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 180px;
+}
+
+#actm{
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#ach{
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+#ac-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-color:#f9faf8 ;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 0;
+    padding: 8px;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;    
+}
+
+#acb-cont{
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 80px;
 }
